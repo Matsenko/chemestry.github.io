@@ -1,0 +1,46 @@
+.form1{
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+  color: #dbaa21;
+  flex-direction: column;
+  animation-name: lol;
+  animation-duration: 2s;
+}
+.form1 input{
+  width: 100px;
+  height: 30px;
+}
+body{
+  background-image: url("https://cdn.mobilesyrup.com/wp-content/uploads/2019/09/breaking-bad-walter-jesse.jpg");
+  background-size: 100%;
+
+}
+footer{
+  ont-family: 'Staatliches', cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+    color: white;
+  align-content: flex-end;
+  animation-name: lol;
+  animation-duration: 2s;
+}
+@keyframes lol {
+  0%{
+    transform: rotate(0deg);
+  }
+100%  {
+  transform: rotate(360deg);
+}
+}
+footer:hover{
+  color: #dbaa21;
+}
+.confirm1 input{
+  background-color: #dbaa21;
+}
+.confirm1 input:hover{
+  background-color:black;
+}

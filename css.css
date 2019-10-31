@@ -1,0 +1,63 @@
+.header1{
+font-size: 45px;
+position: static;
+display: flex;
+justify-content: center;
+color: #8ba856;
+font-family: 'Staatliches', cursive;
+
+}
+body{
+  background-image: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2019/01/Breaking-Bad-Movie-Characters.jpg");
+  background-size: 100%;
+  animation-name: lol;
+  animation-duration: 2s;
+}
+.header1:hover{
+animation-name: lol;
+animation-duration: 2s;
+}
+@keyframes lol {
+  0%{
+    transform: rotate(0deg);
+  }
+100%  {
+  transform: rotate(360deg);
+}
+}
+.flask p{
+justify-content: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 45px;
+  flex: 1;
+}
+.flask1 button {
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+flex: 2;
+}
+.chemical1 div{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 20px solid black;
+}
+.flask1 button:hover{
+  background-color: #43613a;
+}
+.flask1 img:hover{
+   filter: alpha(opacity=100);
+   animation-name: lol;
+   animation-duration: 1s;
+}
+.foot1{
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-self:flex-start;
+  color:  #dbaa21;
+}
+.foot1:hover{
+  color:white;
+}
